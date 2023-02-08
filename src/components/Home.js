@@ -15,9 +15,7 @@ const Home = () => {
     <>
       {/* <div id="back__preloader">
         <div id="back__circle_loader"></div>
-        <div className="back__loader_logo">
-          <img src="./assets/images/preload.png" alt="Preload" />
-        </div>
+        
       </div> */}
 
       <div className="back-wrapper">
@@ -36,9 +34,9 @@ const Home = () => {
       <Newsletter />
 
       {/* <!--================= Scroll to Top Start =================--> */}
-      <div id="backscrollUp">
+      {/* <div id="backscrollUp">
         <span aria-hidden="true" className="arrow_carrot-up"></span>
-      </div>
+      </div> */}
     </>
   );
 };
