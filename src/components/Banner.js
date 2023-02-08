@@ -12,7 +12,7 @@ import { IoStarOutline } from "react-icons/io5";
 
 const Banner = () => {
   return (
-    <div className="home-banner-part" style={{ minWidth: "100vh" }}>
+    <div className="home-banner-part" style={{ minHeight: "100vh" }}>
       <div className="banner-img">
         <img className="desktop" src={slide1} alt="Banner " />
         <img className="back__shape__1" src={banner1} alt="Shape " />
