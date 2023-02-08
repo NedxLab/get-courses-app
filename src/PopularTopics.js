@@ -6,7 +6,7 @@ import icon4 from "./assets/images/icon/4.png";
 
 const PopularTopics = () => {
   return (
-    <div className="back_popular_topics pt-120 pb-120">
+    <div className="back_popular_topics pt-5 pb5">
       <div className="container">
         <div className="back__title__section text-center">
           <h6 className="back__subtitle">Browse Categories</h6>

@@ -31,7 +31,6 @@ const Home = () => {
           <Events />
           <Programs />
           <CampusInfo />
-
           <Counter />
           <Blog />
         </div>

@@ -6,12 +6,15 @@ import icon3 from "./assets/images/cta/icon/3.png";
 const CampusInfo = () => {
   return (
     <>
-      <div className="cta__area p-relative m-img pt-120 pb-155">
+      <div
+        className="cta__area p-relative m-img pt-12 pb-8"
+        style={{ paddingBottom: "155px", paddingTop: "120px" }}
+      >
         <div className="container cta__width">
           <div className="row">
             <div className="col-xxl-12">
               <div className="cta__wrapper text-center">
-                <h6 className="cta__pre-subtitle">Featured Courses</h6>
+                <h6 className="cta__pre-subtitle">University logs</h6>
                 <h2 className="cta__title">Campus Information</h2>
               </div>
             </div>

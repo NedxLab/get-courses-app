@@ -5,6 +5,8 @@ import instagram3 from "./assets/images/instagram/3.jpg";
 import instagram4 from "./assets/images/instagram/4.jpg";
 import instagram5 from "./assets/images/instagram/5.jpg";
 import instagram6 from "./assets/images/instagram/6.jpg";
+import logo from "./assets/images/logo.png";
+import { FaFacebook, FaTwitter, FaLinkedinIn } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -17,7 +19,7 @@ const Footer = () => {
                 <div className="footer-logo white">
                   <a href="index.html" className="logo-text">
                     {" "}
-                    <img src="./assets/images/logo.png" alt="logo" />
+                    <img src={logo} alt="logo" />
                   </a>
                 </div>
                 <h5 className="footer-subtitle">
@@ -28,26 +30,23 @@ const Footer = () => {
                 <ul className="social-links">
                   <li>
                     <a href="/">
-                      <span
-                        aria-hidden="true"
-                        className="social_facebook"
-                      ></span>
+                      <span aria-hidden="true" className="social_facebook">
+                        <FaFacebook />
+                      </span>
                     </a>
                   </li>
                   <li>
                     <a href="/">
-                      <span
-                        aria-hidden="true"
-                        className="social_twitter"
-                      ></span>
+                      <span aria-hidden="true" className="social_twitter">
+                        <FaTwitter />
+                      </span>
                     </a>
                   </li>
                   <li>
                     <a href="/">
-                      <span
-                        aria-hidden="true"
-                        className="social_linkedin"
-                      ></span>
+                      <span aria-hidden="true" className="social_linkedin">
+                        <FaLinkedinIn />
+                      </span>
                     </a>
                   </li>
                 </ul>

@@ -37,7 +37,7 @@ const Blog = () => {
     },
   ];
   return (
-    <div className="back-blog__area blog__area pt-90 pb-120">
+    <div className="back-blog__area blog__area pt-5 pb-5">
       <div className="container blog__width">
         <div className="back__title__section text-center">
           <h6 className="back__subtitle">From our blog</h6>
@@ -49,7 +49,7 @@ const Blog = () => {
               className="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12"
               key={i}
             >
-              <div className="blog__card mb-50">
+              <div className="blog__card mb-5">
                 <div className="blog__thumb w-img p-relative">
                   <a className="blog__thumb--image" href="blog-details.html">
                     <img src={blog.image} alt="This the first card " />

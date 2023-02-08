@@ -56,11 +56,14 @@
 /*****************************************************
     01. General CSS Here 
 ****************************/
+
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500&display=swap");
+
 html,
 body {
   font-size: 16px;
   color: #252525;
-  font-family: "Manrope", sans-serif;
+  font-family: "Manrope", sans-serif !important;
   vertical-align: baseline;
   font-weight: 400;
   overflow-x: hidden;
@@ -2511,7 +2514,6 @@ body.back-one-page .back-menus > li > a {
 .event__video-btn--play-btn i {
   z-index: 2;
   position: relative;
-  top: 9px;
   font-size: 35px;
 }
 .container.event__width {

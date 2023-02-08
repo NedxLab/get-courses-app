@@ -73,7 +73,7 @@ const Courses = () => {
     },
   ];
   return (
-    <div className="back__course__area pt-120 pb-90">
+    <div className="back__course__area pt-2 pb-5">
       <img className="back__shape__1" src={shape1} alt="shape" />
       <img className="back__shape__2" src={shape2} alt="shape" />
       <div className="container">

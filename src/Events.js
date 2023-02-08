@@ -1,9 +1,9 @@
 import React from "react";
 import bannner from "./assets/images/event/bannner.jpg";
-
+import { BiPlayCircle } from "react-icons/bi";
 const Events = () => {
   return (
-    <div className="event__area p-relative pb-100 pt-120">
+    <div className="event__area p-relative pb-5 pt-5 mt-5">
       <div className="container event__width">
         <div className="row">
           <div className="col-lg-8 pr-80">
@@ -93,7 +93,7 @@ const Events = () => {
                 </div>
               </div>
               <p className="event__small-paragraph">
-                Lorem ipsum dolor sit amet, consectetur adall.
+                Watch and rewatch all past events.
               </p>
               <a className="event__small-paragraph--link" href="/">
                 {" "}
@@ -114,7 +114,10 @@ const Events = () => {
                   href="../../watch.html?v=e5Hc2B50Z7c"
                   className="event__video-btn--play-btn popup-videos"
                 >
-                  <i className="arrow_triangle-right"></i>
+                  <i className="arrow_triangle-right">
+                    {" "}
+                    <BiPlayCircle />
+                  </i>
                 </a>
               </div>
             </div>

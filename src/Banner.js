@@ -23,7 +23,7 @@ const Banner = () => {
         <div className="back__hero__card">
           <div className="back__thumb">
             <a href="/">
-              <img src={bannerx1} alt="" />
+              <img src={bannerx1} alt="" style={{ width: "100%" }} />
             </a>
             <span className="back__price">$26</span>
           </div>
@@ -52,7 +52,7 @@ const Banner = () => {
           </div>
         </div>
       </div>
-      <div className="container">
+      <div className="container px-5">
         <div className="banner-content">
           <div className="back-sec-title">
             <h1 className="banner-title">
