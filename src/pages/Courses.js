@@ -92,7 +92,7 @@ const Courses = () => {
                     <div className="back-nav">
                       <ul>
                         <li>
-                          <a href="index.html">Home</a>
+                          <a href="/">Home</a>
                         </li>
                         <li>Courses</li>
                       </ul>
@@ -117,9 +117,9 @@ const Courses = () => {
                             viewBox="0 0 24 24"
                             fill="none"
                             stroke="currentColor"
-                            stroke-width="2"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
+                            strokeWidth="2"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
                             className="feather feather-grid"
                           >
                             <rect x="3" y="3" width="7" height="7"></rect>
@@ -136,9 +136,9 @@ const Courses = () => {
                             viewBox="0 0 24 24"
                             fill="none"
                             stroke="currentColor"
-                            stroke-width="2"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
+                            strokeWidth="2"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
                             className="feather feather-list"
                           >
                             <line x1="8" y1="6" x2="21" y2="6"></line>
@@ -165,7 +165,7 @@ const Courses = () => {
                   </div>
                   <div className="row">
                     {featuredCourses.map((course, i) => (
-                      <div className="col-lg-6">
+                      <div className="col-lg-6" key={i}>
                         <div className="course__item mb-30">
                           <div className="course__thumb">
                             <a href="/">
@@ -190,9 +190,9 @@ const Courses = () => {
                                   viewBox="0 0 24 24"
                                   fill="none"
                                   stroke="currentColor"
-                                  stroke-width="2"
-                                  stroke-linecap="round"
-                                  stroke-linejoin="round"
+                                  strokeWidth="2"
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
                                   className="feather feather-user"
                                 >
                                   <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
@@ -208,9 +208,9 @@ const Courses = () => {
                                   viewBox="0 0 24 24"
                                   fill="none"
                                   stroke="currentColor"
-                                  stroke-width="2"
-                                  stroke-linecap="round"
-                                  stroke-linejoin="round"
+                                  strokeWidth="2"
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
                                   className="feather feather-star"
                                 >
                                   <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
@@ -264,9 +264,9 @@ const Courses = () => {
                             viewBox="0 0 24 24"
                             fill="none"
                             stroke="currentColor"
-                            stroke-width="2"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
+                            strokeWidth="2"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
                             className="feather feather-search"
                           >
                             <circle cx="11" cy="11" r="8"></circle>
@@ -285,7 +285,7 @@ const Courses = () => {
                             name="fruit-1"
                             value="Featured"
                           />
-                          <label for="fruit1">
+                          <label htmlFor="fruit1">
                             Featured courses{" "}
                             <span className="category-count">(8)</span>
                           </label>
@@ -297,7 +297,7 @@ const Courses = () => {
                             name="fruit-2"
                             value="Education"
                           />
-                          <label for="fruit2">
+                          <label htmlFor="fruit2">
                             Education{" "}
                             <span className="category-count">(5)</span>
                           </label>
@@ -309,7 +309,7 @@ const Courses = () => {
                             name="fruit-3"
                             value="Business"
                           />
-                          <label for="fruit3">
+                          <label htmlFor="fruit3">
                             Business <span className="category-count">(3)</span>
                           </label>
                         </li>
@@ -320,7 +320,7 @@ const Courses = () => {
                             name="fruit-4"
                             value="Management"
                           />
-                          <label for="fruit4">
+                          <label htmlFor="fruit4">
                             IT Management{" "}
                             <span className="category-count">(7)</span>
                           </label>
@@ -332,7 +332,7 @@ const Courses = () => {
                             name="fruit-5"
                             value="Development"
                           />
-                          <label for="fruit5">
+                          <label htmlFor="fruit5">
                             Development{" "}
                             <span className="category-count">(6)</span>
                           </label>
@@ -344,7 +344,7 @@ const Courses = () => {
                             name="fruit-6"
                             value="Creative"
                           />
-                          <label for="fruit6">
+                          <label htmlFor="fruit6">
                             Creative <span className="category-count">(2)</span>
                           </label>
                         </li>
@@ -360,7 +360,7 @@ const Courses = () => {
                             name="fruit-7"
                             value="all"
                           />
-                          <label for="fruit7">
+                          <label htmlFor="fruit7">
                             All <span className="category-count">(209)</span>
                           </label>
                         </li>
@@ -371,7 +371,7 @@ const Courses = () => {
                             name="fruit-8"
                             value="Free Courses"
                           />
-                          <label for="fruit8">
+                          <label htmlFor="fruit8">
                             Free Courses{" "}
                             <span className="category-count">(36)</span>
                           </label>
@@ -383,7 +383,7 @@ const Courses = () => {
                             name="fruit-9"
                             value="Premium Courses"
                           />
-                          <label for="fruit9">
+                          <label htmlFor="fruit9">
                             Premium Courses{" "}
                             <span className="category-count">(185)</span>
                           </label>
@@ -400,7 +400,7 @@ const Courses = () => {
                             name="fruit-10"
                             value="All Levels"
                           />
-                          <label for="fruit10">
+                          <label htmlFor="fruit10">
                             All Levels{" "}
                             <span className="category-count">(50)</span>
                           </label>
@@ -412,7 +412,7 @@ const Courses = () => {
                             name="fruit-11"
                             value="Beginner"
                           />
-                          <label for="fruit11">
+                          <label htmlFor="fruit11">
                             Beginner{" "}
                             <span className="category-count">(32)</span>
                           </label>
@@ -424,7 +424,7 @@ const Courses = () => {
                             name="fruit-12"
                             value="Intermediate"
                           />
-                          <label for="fruit12">
+                          <label htmlFor="fruit12">
                             Intermediate
                             <span className="category-count">(17)</span>
                           </label>
@@ -436,7 +436,7 @@ const Courses = () => {
                             name="fruit-13"
                             value="Expert"
                           />
-                          <label for="fruit13">
+                          <label htmlFor="fruit13">
                             Expert<span className="category-count">(2)</span>
                           </label>
                         </li>

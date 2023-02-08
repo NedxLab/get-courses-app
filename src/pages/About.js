@@ -21,7 +21,7 @@ const About = () => {
                 <div className="back-nav">
                   <ul>
                     <li>
-                      <a href="index.html">Home</a>
+                      <a href="/">Home</a>
                     </li>
                     <li>About Us</li>
                   </ul>
