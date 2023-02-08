@@ -1,7 +1,7 @@
 import React from "react";
-import icon1 from "./assets/images/cta/icon/1.png";
-import icon2 from "./assets/images/cta/icon/2.png";
-import icon3 from "./assets/images/cta/icon/3.png";
+import icon1 from "../assets/images/cta/icon/1.png";
+import icon2 from "../assets/images/cta/icon/2.png";
+import icon3 from "../assets/images/cta/icon/3.png";
 
 const CampusInfo = () => {
   return (

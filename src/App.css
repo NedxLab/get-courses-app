@@ -790,7 +790,7 @@ body.back-one-page .back-menus > li > a {
 .home-banner-part .banner-content {
   position: absolute;
   top: 50%;
-  transform: translateY(-50%);
+  transform: translateY(-70%);
 }
 .home-banner-part .banner-content .banner-title {
   font-size: 54px;

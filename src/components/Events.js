@@ -1,5 +1,5 @@
 import React from "react";
-import bannner from "./assets/images/event/bannner.jpg";
+import bannner from "../assets/images/event/bannner.jpg";
 import { BiPlayCircle } from "react-icons/bi";
 const Events = () => {
   return (
@@ -36,7 +36,7 @@ const Events = () => {
                     </p>
                   </div>
                   <div className="event__card--btn">
-                    <a href="contact.html" className="w-btn w-btn-8">
+                    <a href="/contact" className="w-btn w-btn-8">
                       Tickets
                     </a>
                   </div>
@@ -61,7 +61,7 @@ const Events = () => {
                     </p>
                   </div>
                   <div className="event__card--btn">
-                    <a href="contact.html" className="w-btn w-btn-8">
+                    <a href="/contact" className="w-btn w-btn-8">
                       Tickets
                     </a>
                   </div>
@@ -86,7 +86,7 @@ const Events = () => {
                     </p>
                   </div>
                   <div className="event__card--btn">
-                    <a href="contact.html" className="w-btn w-btn-8">
+                    <a href="/contact" className="w-btn w-btn-8">
                       Tickets
                     </a>
                   </div>

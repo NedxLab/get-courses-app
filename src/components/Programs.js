@@ -1,12 +1,12 @@
 import React from "react";
-import academic1 from "./assets/images/academic/1.jpg";
-import academic2 from "./assets/images/academic/2.jpg";
-import academic3 from "./assets/images/academic/3.jpg";
-import academic4 from "./assets/images/academic/4.jpg";
-import acadicon1 from "./assets/images/academic/icon/1.png";
-import acadicon2 from "./assets/images/academic/icon/2.png";
-import acadicon3 from "./assets/images/academic/icon/3.png";
-import acadicon4 from "./assets/images/academic/icon/4.png";
+import academic1 from "../assets/images/academic/1.jpg";
+import academic2 from "../assets/images/academic/2.jpg";
+import academic3 from "../assets/images/academic/3.jpg";
+import academic4 from "../assets/images/academic/4.jpg";
+import acadicon1 from "../assets/images/academic/icon/1.png";
+import acadicon2 from "../assets/images/academic/icon/2.png";
+import acadicon3 from "../assets/images/academic/icon/3.png";
+import acadicon4 from "../assets/images/academic/icon/4.png";
 import { IoIosArrowRoundForward } from "react-icons/io";
 
 const Programs = () => {
@@ -49,7 +49,7 @@ const Programs = () => {
         </div>
         <div className="row">
           {programs.map((program, i) => (
-            <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-6">
+            <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-6" key={i}>
               <div className="academic__container mb-50">
                 <div className="academic__wrapper">
                   <div className="academic__wrapper--image m-img">
@@ -72,10 +72,7 @@ const Programs = () => {
                     {program.name}
                   </h6>
                   <p className="academic__round-area-title-2">{program.desc}</p>
-                  <a
-                    className="academic__round-area-title-3"
-                    href="contact.html"
-                  >
+                  <a className="academic__round-area-title-3" href="/">
                     Apply Now
                     <i className="arrow_right academic__round-area-title-3--icon">
                       <IoIosArrowRoundForward />

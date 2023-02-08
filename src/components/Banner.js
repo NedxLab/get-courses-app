@@ -1,12 +1,12 @@
 import React from "react";
-import slide1 from "./assets/images/banner/slide1.jpg";
-import banner1 from "./assets/images/banner/01.png";
-import banner2 from "./assets/images/banner/02.png";
-import banner3 from "./assets/images/banner/03.png";
-import banner4 from "./assets/images/banner/04.png";
-import banner5 from "./assets/images/banner/05.png";
-import bannerx1 from "./assets/images/banner/1.jpg";
-import thumb from "./assets/images/banner/thumb.jpg";
+import slide1 from "../assets/images/banner/slide1.jpg";
+import banner1 from "../assets/images/banner/01.png";
+import banner2 from "../assets/images/banner/02.png";
+import banner3 from "../assets/images/banner/03.png";
+import banner4 from "../assets/images/banner/04.png";
+import banner5 from "../assets/images/banner/05.png";
+import bannerx1 from "../assets/images/banner/1.jpg";
+import thumb from "../assets/images/banner/thumb.jpg";
 import { SlUser } from "react-icons/sl";
 import { IoStarOutline } from "react-icons/io5";
 
@@ -32,9 +32,7 @@ const Banner = () => {
               Copy-writing
             </a>
             <h3 className="back-course-title">
-              <a href="coureses-single.html">
-                Learning to write as a Professional.
-              </a>
+              <a href="/courses">Learning to write as a Professional.</a>
             </h3>
             <div className="hero__card-icon d-flex align-items-center">
               <div className="hero__card-icon--1">
@@ -58,15 +56,15 @@ const Banner = () => {
             <h1 className="banner-title">
               The best
               <br /> University Courses <br />
-              for better world
+              to get you started!
             </h1>
             <p className="banner-desc">
-              Thousands of students are already studying in Dlear
-              <br /> University for all ages!
+              Thousands of students are already studying with our
+              <br /> University for ages!
             </p>
           </div>
           <div className="banner-btn pt-15">
-            <a href="coureses-grid.html" className="back-btn">
+            <a href="/courses" className="back-btn">
               Discover More Course
             </a>
           </div>

@@ -1,7 +1,7 @@
 import React from "react";
-import blog1 from "./assets/images/blog/1.jpg";
-import blog2 from "./assets/images/blog/2.jpg";
-import blog3 from "./assets/images/blog/3.jpg";
+import blog1 from "../assets/images/blog/1.jpg";
+import blog2 from "../assets/images/blog/2.jpg";
+import blog3 from "../assets/images/blog/3.jpg";
 import { BsHeart } from "react-icons/bs";
 import { AiOutlineComment } from "react-icons/ai";
 import { IoIosArrowRoundForward } from "react-icons/io";
@@ -51,7 +51,7 @@ const Blog = () => {
             >
               <div className="blog__card mb-5">
                 <div className="blog__thumb w-img p-relative">
-                  <a className="blog__thumb--image" href="blog-details.html">
+                  <a className="blog__thumb--image" href="/">
                     <img src={blog.image} alt="This the first card " />
                   </a>
                   <a className="blog__thumb--pre-title" href="blog.html">
@@ -62,9 +62,9 @@ const Blog = () => {
                   <div className="blog__card--content-area mb-25">
                     <span className="blog__card--date">{blog.date}</span>
                     <h3 className="blog__card--title">
-                      <a href="blog-details.html">{blog.title}</a>
+                      <a href="/">{blog.title}</a>
                     </h3>
-                    <a className="blog__card--link" href="blog-details.html">
+                    <a className="blog__card--link" href="/">
                       {" "}
                       Read more <IoIosArrowRoundForward />
                     </a>

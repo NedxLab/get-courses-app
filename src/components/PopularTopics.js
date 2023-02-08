@@ -1,8 +1,8 @@
 import React from "react";
-import icon from "./assets/images/icon/icon.png";
-import icon2 from "./assets/images/icon/2.png";
-import icon3 from "./assets/images/icon/3.png";
-import icon4 from "./assets/images/icon/4.png";
+import icon from "../assets/images/icon/icon.png";
+import icon2 from "../assets/images/icon/2.png";
+import icon3 from "../assets/images/icon/3.png";
+import icon4 from "../assets/images/icon/4.png";
 
 const PopularTopics = () => {
   return (
@@ -20,7 +20,7 @@ const PopularTopics = () => {
               </div>
               <div className="back-content">
                 <h3 className="back-title">
-                  <a href="coureses-grid.html">
+                  <a href="/courses">
                     Environmental <br /> Sciences
                   </a>
                 </h3>
@@ -35,7 +35,7 @@ const PopularTopics = () => {
               </div>
               <div className="back-content">
                 <h3 className="back-title">
-                  <a href="coureses-grid.html">
+                  <a href="/courses">
                     Data Science & <br /> Analytics
                   </a>
                 </h3>
@@ -50,7 +50,7 @@ const PopularTopics = () => {
               </div>
               <div className="back-content">
                 <h3 className="back-title">
-                  <a href="coureses-grid.html">
+                  <a href="/courses">
                     Business <br /> & Management
                   </a>
                 </h3>
@@ -65,7 +65,7 @@ const PopularTopics = () => {
               </div>
               <div className="back-content">
                 <h3 className="back-title">
-                  <a href="coureses-grid.html">
+                  <a href="/courses">
                     Learning <br /> Management
                   </a>
                 </h3>
@@ -76,7 +76,7 @@ const PopularTopics = () => {
         </div>
       </div>
       <div className="text-center pt-20">
-        <a href="coureses-grid.html" className="back-btn-border">
+        <a href="/courses" className="back-btn-border">
           {" "}
           Browse more Courses
         </a>

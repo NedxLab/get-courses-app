@@ -6,8 +6,6 @@ import CampusInfo from "./CampusInfo";
 import Counter from "./Counter";
 import Courses from "./Courses";
 import Events from "./Events";
-import Footer from "./Footer";
-import Navbar from "./Navbar";
 import Newsletter from "./Newsletter";
 import PopularTopics from "./PopularTopics";
 import Programs from "./Programs";
@@ -21,7 +19,7 @@ const Home = () => {
           <img src="./assets/images/preload.png" alt="Preload" />
         </div>
       </div> */}
-      <Navbar />
+
       <div className="back-wrapper">
         <div className="back-wrapper-inner">
           <Banner />
@@ -36,7 +34,7 @@ const Home = () => {
         </div>
       </div>
       <Newsletter />
-      <Footer />
+
       {/* <!--================= Scroll to Top Start =================--> */}
       <div id="backscrollUp">
         <span aria-hidden="true" className="arrow_carrot-up"></span>

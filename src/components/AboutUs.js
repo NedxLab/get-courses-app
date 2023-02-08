@@ -1,6 +1,6 @@
 import React from "react";
-import signature from "./assets/images/about/signature.png";
-import lesson from "./assets/images/about/learners-lesson.jpg";
+import signature from "../assets/images/about/signature.png";
+import lesson from "../assets/images/about/learners-lesson.jpg";
 
 const AboutUs = () => {
   return (
@@ -32,7 +32,7 @@ const AboutUs = () => {
                 style={{ width: "150px" }}
               />
               <div className="about__btn md-mb-60">
-                <a href="about.html" className="back-btn">
+                <a href="/abouts" className="back-btn">
                   {" "}
                   University Overview
                 </a>
